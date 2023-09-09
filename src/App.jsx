@@ -40,7 +40,8 @@ function App() {
             type="text"
             value={text}
             style={{
-              width: '50%', fontSize: '20px', backdropFilter: 'blur(10px)', border: 'none', padding: '10px', borderRadius: '10px', minWidth: '300px'
+              width: '50%', fontSize: '20px', backdropFilter: 'blur(10px)', padding: '10px', borderRadius: '10px', minWidth: '300px',
+              boxShadow: '0 0 10px rgba(0,0,0,0.3)', backgroundColor: 'rgba(255,255,255,0.1)', color: 'white', border: '3px solid black'
             }}
             onChange={(e) => {
               setText(e.target.value)
